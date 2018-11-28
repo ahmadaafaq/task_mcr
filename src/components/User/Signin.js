@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Button, FormGroup, Label, Input } from "reactstrap";
 import { Redirect, Link } from "react-router-dom";
-import "./Login.css";
+import "./Signin.css";
 
-class Login extends Component {
+class Signin extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -88,4 +88,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default Signin;
